@@ -41,70 +41,46 @@ The source dataset for each column is indicated in the superscript.
 
 The data is made available as a single, integrated zipped .csv file.
 
-Bait-Prey Information (Bait)<sup>1</sup>: Tagged viral expressed protein
-
-Preys<sup>1</sup>: Identifier for the prey gene
-
-PreyGene<sup>1</sup>: Gene corresponding to the associated human protein
+Column Name | Description
+--- | ---
+Bait-Prey Information (Bait)<sup>1</sup> | Tagged viral expressed protein
+Preys<sup>1</sup> | Identifier for the prey gene
+PreyGene<sup>1</sup> | Gene corresponding to the associated human protein
 identified as an interactor with a tagged viral protein. This is a key
 join column that links all of the drug, gene, protein, and disease
 information together.
-
-MIST<sup>1</sup>: Protein-protein interaction score as computed by MiST (Mass
+MIST<sup>1</sup> | Protein-protein interaction score as computed by MiST (Mass
 Spectrometry interaction statistics)
-
-Saint\_BFDR<sup>1</sup>: False discovery rate as computed by SAINTexpress
+Saint\_BFDR<sup>1</sup> | False discovery rate as computed by SAINTexpress
 (Significance Analysis of INTeractome software)
-
-AvgSpec<sup>1</sup>: Average spectral counts
-
-Uniprot Protein Description<sup>1</sup>: Description of host protein from Uniprot
+AvgSpec<sup>1</sup> | Average spectral counts
+Uniprot Protein Description<sup>1</sup> | Description of host protein from Uniprot
 database
-
-Uniprot Protein Function<sup>1</sup>: Function of host protein from Uniprot
+Uniprot Protein Function<sup>1</sup> | Function of host protein from Uniprot
 database
-
-Structures (PDB)<sup>1</sup>: Three-dimensional structural database for large
+Structures (PDB)<sup>1</sup> | Three-dimensional structural database for large
 biological molecules
-
-Uniprot Function in Disease<sup>1</sup>: Function in disease of host protein from
+Uniprot Function in Disease<sup>1</sup> | Function in disease of host protein from
 Uniprot database
-
-Drug<sup>2</sup>/Compound<sup>1</sup>: Name of drug or compound
-
-Drug Status<sup>2</sup>: Drug development stage(eg. Preclinical, Clinical Trial,
+Drug<sup>2</sup>/Compound<sup>1</sup> | Name of drug or compound
+Drug Status<sup>2</sup> | Drug development stage(eg. Preclinical, Clinical Trial,
 Approved)
-
-Pubchem\_cid<sup>2</sup>: Pubchem ID of drug
-
-SMILES^1,2^: SMILES of drug or compound
-
-ZINC\_ID<sup>1</sup>: ZINC database ID
-
-Broad\_id<sup>2</sup>: Broad Institute identifier for the drug
-
-Pert\_iname<sup>2</sup>: The internal (CMap-designated) name of a perturbagen. By
+Pubchem\_cid<sup>2</sup> | Pubchem ID of drug
+SMILES^1,2^ | SMILES of drug or compound
+ZINC\_ID<sup>1</sup> | ZINC database ID
+Broad\_id<sup>2</sup> | Broad Institute identifier for the drug
+Pert\_iname<sup>2</sup> | The internal (CMap-designated) name of a perturbagen. By
 convention, for genetic perturbations CMap uses the HUGO gene symbol
-
-Purity<sup>2</sup>: Purity of drug
-
-Expected mass<sup>2</sup>: Expected mass of drug
-
-InChIKey<sup>2</sup>: International Chemical Identifier of compound
-
-Pathway<sup>1</sup>: Name of associated pathway from gene
-
-DSI<sup>3</sup>: Disease specificity index
-
-DPI<sup>3</sup>: Disease pleiotropy index
-
-diseaseName<sup>3</sup>: Name of the disease
-
-diseaseType<sup>3</sup>: DisGeNET disease type: disease, phenotype and group
-
-diseaseSemanticType<sup>3</sup>: UMLS Semantic Type(s) of the disease
-
-Score<sup>3</sup>: DisGENET score for the Gene-Disease association
+Purity<sup>2</sup> | Purity of drug
+Expected mass<sup>2</sup> | Expected mass of drug
+InChIKey<sup>2</sup> | International Chemical Identifier of compound
+Pathway<sup>1</sup> | Name of associated pathway from gene
+DSI<sup>3</sup> | Disease specificity index
+DPI<sup>3</sup> | Disease pleiotropy index
+diseaseName<sup>3</sup> | Name of the disease
+diseaseType<sup>3</sup> | DisGeNET disease type: disease, phenotype and group
+diseaseSemanticType<sup>3</sup> | UMLS Semantic Type(s) of the disease
+Score<sup>3</sup> | DisGENET score for the Gene-Disease association
 
 Future Work and Next Steps
 --------------------------
