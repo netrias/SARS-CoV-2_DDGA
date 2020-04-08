@@ -45,32 +45,21 @@ Column Name | Description
 --- | ---
 Bait-Prey Information (Bait)<sup>1</sup> | Tagged viral expressed protein
 Preys<sup>1</sup> | Identifier for the prey gene
-PreyGene<sup>1</sup> | Gene corresponding to the associated human protein
-identified as an interactor with a tagged viral protein. This is a key
-join column that links all of the drug, gene, protein, and disease
-information together.
-MIST<sup>1</sup> | Protein-protein interaction score as computed by MiST (Mass
-Spectrometry interaction statistics)
-Saint\_BFDR<sup>1</sup> | False discovery rate as computed by SAINTexpress
-(Significance Analysis of INTeractome software)
+PreyGene<sup>1</sup> | Gene corresponding to the associated human protein identified as an interactor with a tagged viral protein. This is a key join column that links all of the drug, gene, protein, and disease information together.
+MIST<sup>1</sup> | Protein-protein interaction score as computed by MiST (MassSpectrometry interaction statistics)
+Saint\_BFDR<sup>1</sup> | False discovery rate as computed by SAINTexpress(Significance Analysis of INTeractome software)
 AvgSpec<sup>1</sup> | Average spectral counts
-Uniprot Protein Description<sup>1</sup> | Description of host protein from Uniprot
-database
-Uniprot Protein Function<sup>1</sup> | Function of host protein from Uniprot
-database
-Structures (PDB)<sup>1</sup> | Three-dimensional structural database for large
-biological molecules
-Uniprot Function in Disease<sup>1</sup> | Function in disease of host protein from
-Uniprot database
+Uniprot Protein Description<sup>1</sup> | Description of host protein from Uniprot database
+Uniprot Protein Function<sup>1</sup> | Function of host protein from Uniprot database
+Structures (PDB)<sup>1</sup> | Three-dimensional structural database for large biological molecules
+Uniprot Function in Disease<sup>1</sup> | Function in disease of host protein from Uniprot database
 Drug<sup>2</sup>/Compound<sup>1</sup> | Name of drug or compound
-Drug Status<sup>2</sup> | Drug development stage(eg. Preclinical, Clinical Trial,
-Approved)
+Drug Status<sup>2</sup> | Drug development stage(eg. Preclinical, Clinical Trial, Approved)
 Pubchem\_cid<sup>2</sup> | Pubchem ID of drug
 SMILES^1,2^ | SMILES of drug or compound
 ZINC\_ID<sup>1</sup> | ZINC database ID
 Broad\_id<sup>2</sup> | Broad Institute identifier for the drug
-Pert\_iname<sup>2</sup> | The internal (CMap-designated) name of a perturbagen. By
-convention, for genetic perturbations CMap uses the HUGO gene symbol
+Pert\_iname<sup>2</sup> | The internal (CMap-designated) name of a perturbagen. By convention, for genetic perturbations CMap uses the HUGO gene symbol
 Purity<sup>2</sup> | Purity of drug
 Expected mass<sup>2</sup> | Expected mass of drug
 InChIKey<sup>2</sup> | International Chemical Identifier of compound
