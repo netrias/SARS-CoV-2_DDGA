@@ -76,9 +76,9 @@ Status<sup>5</sup> | Label if the drug is discontinued
 routes of administration<sup>5</sup> | Route of administration 
 Volume of distribution (VD)<sup>5</sup> | Distribution volume in liters
 Clearance (Cl)<sup>5</sup> | volume of blood, serum, or plasma completely cleared of drug per unit of time (liter/hour)
-Plasma Protein Binding (PPB)<sup>5</sup> | Plasma proteein binding assay
-Half-life (t1/2)<sup>5</sup> | Half-life in 
-F<sup>5</sup> | Bioavailability as a percetnage
+Plasma Protein Binding (PPB)<sup>5</sup> | Plasma protein binding assay
+Half-life (t1/2)<sup>5</sup> | Half-life in hours
+F<sup>5</sup> | Bioavailability as a percentage
 Cmax<sup>5</sup> | maximum (or peak) serum concentration
 Cmax Unit<sup>5</sup> | units of maximum (or peak) serum concentration
 Tmax<sup>5</sup> | time at which Cmax is attained in hours
@@ -116,4 +116,4 @@ genomics: 2019 update.\" Nucleic acids research 48.D1 (2020): D845-D855.
 
 4\. "CORD-19: Semantic Scholar." *CORD-19 \| Semantic Scholar*, pages.semanticscholar.org/coronavirus-research.
 
-5\. 
+5\. Data sets representative of the Structures and Experimental Properties of FDA-approved Drugs, Douguet D., ACS Med Chem Lett., 2018, 9(3):204-209. doi: 10.1021/acsmedchemlett.7b00462. Accessed April 15, 2020. https://chemoinfo.ipmc.cnrs.fr/TMP/tmp.32127/e-Drug3D_1930_PK_v2.txt
