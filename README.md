@@ -56,7 +56,7 @@ Uniprot Function in Disease<sup>1</sup> | Function in disease of host protein fr
 Drug<sup>2</sup>/Compound<sup>1</sup> | Name of drug or compound
 Drug Status<sup>2</sup> | Drug development stage(eg. Preclinical, Clinical Trial, Approved)
 Pubchem\_cid<sup>2</sup> | Pubchem ID of drug
-SMILES^1,2^ | SMILES of drug or compound
+SMILES<sup>1,2</sup> | SMILES of drug or compound
 ZINC\_ID<sup>1</sup> | ZINC database ID
 Broad\_id<sup>2</sup> | Broad Institute identifier for the drug
 Pert\_iname<sup>2</sup> | The internal (CMap-designated) name of a perturbagen. By convention, for genetic perturbations CMap uses the HUGO gene symbol
@@ -70,6 +70,20 @@ diseaseName<sup>3</sup> | Name of the disease
 diseaseType<sup>3</sup> | DisGeNET disease type: disease, phenotype and group
 diseaseSemanticType<sup>3</sup> | UMLS Semantic Type(s) of the disease
 Score<sup>3</sup> | DisGENET score for the Gene-Disease association
+CAS number<sup>5</sup> | Unique numerical identifier assigned by the Chemical Abstracts Service (CAS) to every chemical substance described in the open scientific literature
+year of approval<sup>5</sup> | Year drug approved
+Status<sup>5</sup> | Label if the drug is discontinued
+routes of administration<sup>5</sup> | Route of administration 
+Volume of distribution (VD)<sup>5</sup> | Distribution volume in liters
+Clearance (Cl)<sup>5</sup> | volume of blood, serum, or plasma completely cleared of drug per unit of time (liter/hour)
+Plasma Protein Binding (PPB)<sup>5</sup> | Plasma proteein binding assay
+Half-life (t1/2)<sup>5</sup> | Half-life in 
+F<sup>5</sup> | Bioavailability as a percetnage
+Cmax<sup>5</sup> | maximum (or peak) serum concentration
+Cmax Unit<sup>5</sup> | units of maximum (or peak) serum concentration
+Tmax<sup>5</sup> | time at which Cmax is attained in hours
+comment on solubility<sup>5</sup> | Solubility of drug
+
 
 Future Work and Next Steps
 --------------------------
@@ -101,3 +115,5 @@ next-generation drug library and information resource.\" Nature medicine
 genomics: 2019 update.\" Nucleic acids research 48.D1 (2020): D845-D855.
 
 4\. "CORD-19: Semantic Scholar." *CORD-19 \| Semantic Scholar*, pages.semanticscholar.org/coronavirus-research.
+
+5\. 
